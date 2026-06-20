@@ -6,12 +6,13 @@
   <title>のりものサウンド プライバシーポリシー</title>
   <style>
     :root {
-      --bg: #f5fbff;
-      --card: #ffffff;
-      --text: #17324a;
-      --muted: #5f7385;
-      --line: #d7e6f0;
-      --accent: #1193d8;
+      color-scheme: light;
+      --bg: #eef8ff;
+      --panel: #ffffff;
+      --text: #17324d;
+      --muted: #57738f;
+      --line: #cfe3f4;
+      --accent: #1b8cff;
     }
 
     * {
@@ -21,130 +22,92 @@
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
-      background:
-        radial-gradient(circle at top left, #dff5ff 0, transparent 28%),
-        linear-gradient(180deg, #eef9ff 0%, var(--bg) 100%);
       color: var(--text);
+      background:
+        radial-gradient(circle at top left, #d9f0ff 0%, transparent 35%),
+        linear-gradient(180deg, #f6fbff 0%, var(--bg) 100%);
       line-height: 1.8;
     }
 
-    .wrap {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 32px 20px 64px;
-    }
-
-    .hero {
-      background: linear-gradient(135deg, #1aa5eb, #57cf72);
-      color: #fff;
-      border-radius: 28px;
-      padding: 28px 24px;
-      box-shadow: 0 18px 40px rgba(17, 147, 216, 0.16);
-    }
-
-    .hero h1 {
-      margin: 0 0 8px;
-      font-size: clamp(28px, 5vw, 42px);
-      line-height: 1.15;
-    }
-
-    .hero p {
-      margin: 0;
-      opacity: 0.95;
-      font-size: 15px;
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 20px 40px;
     }
 
     .card {
-      background: var(--card);
+      background: var(--panel);
       border: 1px solid var(--line);
       border-radius: 24px;
-      padding: 24px;
-      margin-top: 18px;
-      box-shadow: 0 10px 28px rgba(23, 50, 74, 0.06);
+      padding: 32px 24px;
+      box-shadow: 0 16px 40px rgba(27, 140, 255, 0.08);
     }
 
-    h2 {
-      margin: 0 0 12px;
-      font-size: 22px;
-      color: var(--accent);
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 4vw, 40px);
+      line-height: 1.2;
     }
 
-    p {
-      margin: 0 0 12px;
-    }
-
-    ul {
-      margin: 0;
-      padding-left: 20px;
-    }
-
-    li + li {
-      margin-top: 8px;
-    }
-
-    .note {
+    .date {
+      margin: 0 0 24px;
       color: var(--muted);
       font-size: 14px;
     }
 
-    a {
+    h2 {
+      margin-top: 28px;
+      font-size: 20px;
       color: var(--accent);
+    }
+
+    p, li {
+      font-size: 16px;
+    }
+
+    ul {
+      padding-left: 1.2em;
     }
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <section class="hero">
-      <h1>のりものサウンド<br>プライバシーポリシー</h1>
-      <p>最終更新日: 2026年6月20日</p>
-    </section>
-
+  <main>
     <section class="card">
-      <h2>1. 基本方針</h2>
-      <p>のりものサウンド（以下「本アプリ」といいます）は、利用者のプライバシーを尊重し、個人情報の保護に配慮して運営します。</p>
-      <p>本ポリシーでは、本アプリにおける情報の取扱いについて説明します。</p>
-    </section>
+      <h1>のりものサウンド プライバシーポリシー</h1>
+      <p class="date">最終更新日: 2026年6月21日</p>
 
-    <section class="card">
-      <h2>2. 取得する情報</h2>
-      <p>本アプリは、現時点において、利用者の氏名、メールアドレス、電話番号、位置情報、写真、連絡先その他の個人情報を、開発者が取得・保存・送信する仕組みを設けていません。</p>
-      <p>また、本アプリは現時点において、アカウント登録機能、課金機能、問い合わせフォーム、解析ツール、広告配信サービスを実装していません。</p>
-    </section>
+      <p>「のりものサウンド」（以下「本アプリ」）は、お子さま向けに、のりものや街の音を楽しめるサウンドアプリです。</p>
 
-    <section class="card">
-      <h2>3. 情報の利用目的</h2>
-      <p>本アプリは、現時点において、開発者が利用者情報を取得して利用することはありません。</p>
-    </section>
+      <h2>1. 取得する情報</h2>
+      <p>本アプリは、ユーザーの氏名、メールアドレス、位置情報、連絡先、写真、音声、広告識別子その他の個人情報を取得しません。</p>
 
-    <section class="card">
-      <h2>4. 第三者提供</h2>
-      <p>本アプリは、現時点において、利用者情報を第三者へ提供しません。</p>
-    </section>
+      <h2>2. 利用する機能</h2>
+      <p>本アプリは、アプリ内に含まれる音声ファイルを再生するために、端末上で音声再生機能を利用します。</p>
+      <p>本アプリは、次の情報や機能を利用しません。</p>
+      <ul>
+        <li>アカウント登録</li>
+        <li>ログイン機能</li>
+        <li>課金機能</li>
+        <li>位置情報</li>
+        <li>マイク入力</li>
+        <li>カメラ</li>
+        <li>連絡先</li>
+        <li>写真ライブラリ</li>
+        <li>解析ツール</li>
+        <li>広告配信</li>
+      </ul>
 
-    <section class="card">
-      <h2>5. 外部サービスについて</h2>
-      <p>本アプリは、現時点において、第三者の広告配信サービス、アクセス解析サービス、マーケティングツールその他の外部サービスを利用していません。</p>
-      <p>将来、本アプリに広告配信サービスその他の外部サービスを導入する場合は、本ポリシーおよび App Store 上のプライバシー情報を更新し、必要に応じて利用者に分かりやすくお知らせします。</p>
-    </section>
+      <h2>3. 外部送信について</h2>
+      <p>本アプリは、通常の利用において、ユーザー情報を外部サーバーへ送信しません。</p>
 
-    <section class="card">
-      <h2>6. 端末内の動作について</h2>
-      <p>本アプリは、端末内に保存されたアプリ内リソースを利用して音声を再生します。これらの動作は、現時点において、利用者の情報を外部サーバーへ送信するものではありません。</p>
-    </section>
+      <h2>4. お子さまの利用について</h2>
+      <p>本アプリは、お子さまでも安心して利用できるよう、個人情報の取得を行わない設計としています。</p>
 
-    <section class="card">
-      <h2>7. 子どもの利用について</h2>
-      <p>本アプリはシンプルな音声再生アプリとして設計されています。現時点において、利用者から個人情報を入力させる機能、ユーザー間の交流機能、外部サービスへ投稿する機能はありません。</p>
-    </section>
+      <h2>5. プライバシーポリシーの変更</h2>
+      <p>本ポリシーの内容は、必要に応じて変更する場合があります。変更後の内容は、最新のプライバシーポリシーにて公表します。</p>
 
-    <section class="card">
-      <h2>8. ポリシーの変更</h2>
-      <p>本ポリシーの内容は、法令の変更、本アプリの機能追加、運営方針の変更等に応じて改定されることがあります。変更後のポリシーは、本ページに掲載した時点から適用されます。</p>
-    </section>
-
-    <section class="card">
-      <h2>9. お問い合わせ</h2>
-      <p>本ポリシーに関するお問い合わせは、App Store の開発者連絡先をご利用ください。</p>
+      <h2>6. お問い合わせ</h2>
+      <p>本アプリに関するお問い合わせは、配布ページまたはサポートページに記載の連絡先をご利用ください。</p>
     </section>
   </main>
 </body>
